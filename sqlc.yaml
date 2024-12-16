@@ -1,0 +1,7 @@
+version: "1"
+packages:
+  - name: "db"
+    path: "./db/sqlc"                # Đường dẫn nơi mã sẽ được sinh ra
+    queries: "./db/query"            # Đường dẫn chứa các truy vấn SQL
+    schema: "./db/migration"         # Đường dẫn chứa các schema SQL (nếu có)
+    engine: "postgresql"             # Đảm bảo bạn đang dùng PostgreSQL
