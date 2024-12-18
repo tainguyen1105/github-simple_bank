@@ -2,7 +2,7 @@
 // versions:
 //   sqlc v1.27.0
 // source: account.sql
-// test comit
+
 
 package db
 
